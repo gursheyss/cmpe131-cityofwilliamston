@@ -3,7 +3,7 @@
 </script>
 
 <header class="flex flex-col items-center p-6 bg-white">
-	<div class="flex items-center mb-4">
+	<div class="flex items-center mb-2">
 		<h1 class="text-3xl font-bold mr-4 text-red-700">City of Williamston, Michigan</h1>
 		<img src={Logo} class="h-12" />
 	</div>
