@@ -5,4 +5,6 @@
 	export let data: PageData;
 </script>
 
-<HeroSlideshow data={data.hero_images} />
+<div class="flex flex-col">
+	<HeroSlideshow data={data.hero_images} />
+</div>
