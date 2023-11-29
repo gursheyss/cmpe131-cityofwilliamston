@@ -41,8 +41,8 @@
 		</div>
 	</div>
 	<div class="flex flex-col items-center w-full sm:w-1/2">
-		<h1 class="text-4xl font-bold mb-4 text-red-800">Welcome!</h1>
-		<p class="text-center pr-4 text-gray-600">
+		<h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 text-red-800">Welcome!</h1>
+		<p class="text-center pr-4 text-gray-600 lg:text-lg xl:text-xl">
 			Our goal is to provide<br />
 			information about our<br />
 			community for residents<br />
