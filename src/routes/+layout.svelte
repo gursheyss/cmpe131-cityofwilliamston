@@ -1,7 +1,10 @@
 <script lang="ts">
-	import "../app.pcss";
-    import Header from '$lib/components/Header.svelte';
+	import '../app.pcss';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	export let data;
 </script>
 
-<Header></Header>
-<slot></slot>
+<Header />
+<slot />
+<Footer data={data.departments} />
