@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-<footer class="relative bottom-0 left-0 right-0 flex flex-col items-center p-6 bg-white z-50">
+<footer class="flex flex-col items-center p-6 bg-white z-50">
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 w-full">
 		{#each data as item (item.id)}
 			<div class="md:col-span-1 lg:col-span-1">
