@@ -13,13 +13,13 @@
 	</div>
 	<nav>
 		<ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-			<li><a href="#" class="hover:underline text-blue-500">Local administrations</a></li>
-			<li><a href="#" class="hover:underline text-blue-500">City departments</a></li>
-			<li><a href="#" class="hover:underline text-blue-500">About Williamston</a></li>
-			<li><a href="#" class="hover:underline text-blue-500">Documents and Forms</a></li>
-			<li><a href="/faq" class="hover:underline text-blue-500">FAQ</a></li>
+			<li><a href="#" class="hover:underline text-gray-600 text-lg font-bold">Local administrations</a></li>
+			<li><a href="#" class="hover:underline text-gray-600 text-lg font-bold">City departments</a></li>
+			<li><a href="#" class="hover:underline text-gray-600 text-lg font-bold">About Williamston</a></li>
+			<li><a href="#" class="hover:underline text-gray-600 text-lg font-bold">Documents and Forms</a></li>
+			<li><a href="/faq" class="hover:underline text-gray-600 text-lg font-bold">FAQ</a></li>
 			<li>
-				<button on:click={printPage} class="text-blue-500 rounded">Print as PDF</button>
+				<button on:click={printPage} class="hover:underline text-gray-600 text-lg font-bold">Print as PDF</button>
 			</li>
 		</ul>
 	</nav>
