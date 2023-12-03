@@ -25,8 +25,6 @@ export async function load() {
         contact: contactData
     };
 
-    console.log(footerinfo);
-
     return {
         hero_images: heroImagesData ?? [],
         upcoming_events: upcomingEventsData ?? [],

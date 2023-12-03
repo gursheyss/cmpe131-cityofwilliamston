@@ -39,7 +39,7 @@
 						alt="Instagram"
 						class="w-6 h-6"
 					/>
-				</a>http://new.williamston-mi.us/portals/47/Hansen%204a.jpg
+				</a>
 				<a href={data.contact.twitter_link} class="hover:opacity-75">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
