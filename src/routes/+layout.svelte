@@ -7,4 +7,4 @@
 
 <Header />
 <slot />
-<Footer data={data.departments} />
+<Footer data={data.footerinfo} />
