@@ -7,10 +7,14 @@
 </script>
 
 <header class="top-0 left-0 right-0 flex flex-col items-center p-6 bg-white z-50">
-	<div class="flex flex-col md:flex-row items-center mb-2">
-		<h1 class="text-3xl font-bold mr-4 text-red-700 text-center">City of Williamston, Michigan</h1>
-		<img src={Logo} alt="city of williamston" class="h-12 mb-4 md:mb-0" />
-	</div>
+	<a href="/">
+		<div class="flex flex-col md:flex-row items-center mb-2">
+			<h1 class="text-3xl font-bold mr-4 text-red-700 text-center">
+				City of Williamston, Michigan
+			</h1>
+			<img src={Logo} alt="city of williamston" class="h-12 mb-4 md:mb-0" />
+		</div>
+	</a>
 	<nav>
 		<ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
 			<li>
